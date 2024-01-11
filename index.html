@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <style>
+        .error-message {
+            color: red;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi conversor de temperatura 🌡️</h1>
+
+    <!-- Add button for input txt -->
+    <label for="temperaturaInput">Ingrese la temperatura en grados Celsius:</label>
+    <input type="text" id="temperaturaInput">;
+    <span id="errorMensaje" class="error-message"></span>
+
+    <!-- Add button and event; convert temp -->
+    <button onclick="convertirTemperatura()">Convertir</button>
+
+    <!-- Display results -->
+    <div id="resultados"></div>
+
+    <script src="logicaprogra.js"></script>
+</body>
+</html>
